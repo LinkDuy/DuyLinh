@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--   <group android:checkableBehavior="single">-->
+<!--       <item android:id="@+id/home"-->
+<!--           android:icon="@drawable/baseline_block_24"-->
+<!--           android:title="Home"-->
+<!--           />-->
+<!--       <item android:id="@+id/admin"-->
+<!--           android:icon="@drawable/baseline_block_24"-->
+<!--           android:title="Admin"-->
+<!--           />-->
+<!--       <item android:id="@+id/CustomerCare"-->
+<!--           android:icon="@drawable/baseline_block_24"-->
+<!--           android:title="CustomerCare"-->
+<!--           />-->
+<!--   </group>-->
+<!--    <item android:title="Profile">-->
+<!--        <menu>-->
+<!--            <group android:checkableBehavior="single">-->
+<!--                <item android:id="@+id/gioHang"-->
+<!--                    android:icon="@drawable/baseline_block_24"-->
+<!--                    android:title="Admin"-->
+<!--                    />-->
+<!--                <item android:id="@+id/HoaDon"-->
+<!--                    android:icon="@drawable/baseline_block_24"-->
+<!--                    android:title="CustomerCare"-->
+<!--                    />-->
+<!--            </group>-->
+<!--        </menu>-->
+<!--        </item>-->
+    <item
+        android:id="@+id/action_search"
+        android:title="Home"
+        android:icon="@drawable/baseline_account_balance_24"
+        />
+    <item
+        android:id="@+id/action_shop"
+        android:title="Shopping"
+        android:icon="@drawable/baseline_add_shopping_cart_24"
+        />
+<!--    app:showAsAction="ifRoom"-->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Admin" />
+</menu>
